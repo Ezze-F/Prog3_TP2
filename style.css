@@ -1,0 +1,96 @@
+body {
+    flex-wrap: wrap;
+    display: block;
+}
+
+header {
+    background-color: rgb(107, 15, 15);
+    color: white;
+    padding: 0.3em;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.nav_sup {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    padding: 1em;
+}
+
+.nav_sup ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_sup li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav_sup a {
+    color:white;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(40, 54, 44);
+    color: white;
+    padding: 1em 0;
+    position: bottom;
+    text-align: center;
+    width: 100%;
+}
+
+footer #derechos {
+    position: static;
+}
+
+#derechos {
+    text-align: center;
+    font-weight: bold;
+}
+
+.principal {
+    color:white;
+    display: flex;
+    position: relative;
+}
+
+.ima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/salta.jpg'); /* Reemplaza con tu ruta */
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9; /* Opacidad para la imagen de fondo */
+    z-index: -1; /* Detrás del contenido */
+}
+
+.nosotros {
+    position: relative; /* Para que el contenido esté encima del fondo */
+    padding: 20px; /* Espacio para el texto */
+    /*color: #000000; /* Color del texto */
+}
+
+.contacto {
+    font-size: medium;
+    list-style: none;
+}
+
+.tabla {
+    text-align: center; /* Para centrar el texto dentro de la tabla */
+}
+
+.via_contacto {
+    color:beige
+    
+}
